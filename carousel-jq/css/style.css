@@ -1,0 +1,37 @@
+.car-item {
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    float: left;
+    background-color: #929292;
+    border: 2px solid #fff;
+    opacity: 0;
+    transition: 2s;
+}
+
+.car-item.presentItem {
+    opacity: 1;
+}
+
+.car-overflow {
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue
+}
+
+.green {
+    background-color: green
+}
+
+.yellow {
+    background-color: yellow
+}
